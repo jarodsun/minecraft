@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:default",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:lapis_ore"
+      },
+      "under_material": {
+        "Name": "minecraft:lapis_ore"
+      },
+      "underwater_material": {
+        "Name": "minecraft:lapis_block"
+      }
+    }
+  }
+  
