@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:default",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:coal_ore"
+      },
+      "under_material": {
+        "Name": "minecraft:coal_ore"
+      },
+      "underwater_material": {
+        "Name": "minecraft:coal_block"
+      }
+    }
+  }
+  
