@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:default",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:diamond_ore"
+      },
+      "under_material": {
+        "Name": "minecraft:diamond_ore"
+      },
+      "underwater_material": {
+        "Name": "minecraft:diamond_block"
+      }
+    }
+  }
+  
