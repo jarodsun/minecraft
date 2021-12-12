@@ -1,0 +1,60 @@
+{
+    "type": "jarod:mining_dimension_type",
+    "generator": {
+      "type": "minecraft:noise",
+      "seed": 123456789,
+      "settings": {
+        "name": "mining:quartz",
+        "bedrock_roof_position": -10,
+        "bedrock_floor_position": 0,
+        "sea_level": 63,
+        "min_surface_level": 0,
+        "disable_mob_generation": true,
+        "noise_caves_enabled": true,
+        "noodle_caves_enabled": true,
+        "aquifers_enabled": true,
+        "deepslate_enabled": true,
+        "ore_veins_enabled": false,
+        "default_block": {
+          "Name": "minecraft:nether_quartz_ore"
+        },
+        "default_fluid": {
+          "Name": "minecraft:quartz_block"
+        },
+        "noise": {
+          "min_y": 0,
+          "height": 256,
+          "density_factor": 1,
+          "density_offset": -0.46875,
+          "size_horizontal": 1,
+          "size_vertical": 2,
+          "simplex_surface_noise": true,
+          "random_density_offset": true,
+          "sampling": {
+            "xz_scale": 1,
+            "y_scale": 1,
+            "xz_factor": 80,
+            "y_factor": 160
+          },
+          "bottom_slide": {
+            "target": -30,
+            "size": 0,
+            "offset": 0
+          },
+          "top_slide": {
+            "target": -10,
+            "size": 3,
+            "offset": 0
+          }
+        },
+        "structures": {
+          "structures": {}
+        }
+      },
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "jarod:quartz_dimension_biome"
+      }
+    }
+  }
+  
