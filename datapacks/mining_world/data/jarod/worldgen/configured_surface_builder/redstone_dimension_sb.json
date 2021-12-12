@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:default",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:redstone_block"
+      },
+      "under_material": {
+        "Name": "minecraft:redstone_block"
+      },
+      "underwater_material": {
+        "Name": "minecraft:redstone_block"
+      }
+    }
+  }
+  
