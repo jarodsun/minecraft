@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:default",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:ancient_debris"
+      },
+      "under_material": {
+        "Name": "minecraft:ancient_debris"
+      },
+      "underwater_material": {
+        "Name": "minecraft:netherite_block"
+      }
+    }
+  }
+  
