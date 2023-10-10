@@ -17,8 +17,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 import java.util.function.Supplier;
 
 public class ModBlocks {
-    public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, TryModding.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS
+            = DeferredRegister.create(ForgeRegistries.BLOCKS, TryModding.MOD_ID);
+
+    public  static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK).
+                    harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
@@ -30,9 +34,7 @@ public class ModBlocks {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties().group(ModItemGroup.TEST_GROUP)));
     }
-    public  static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore",
-            () -> new Block(AbstractBlock.Properties.create(Material.ROCK).
-                    harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
+
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
     }
