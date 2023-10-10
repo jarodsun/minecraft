@@ -1,0 +1,2 @@
+tellraw @a {"text": "矿石世界，已加载!", "color": "#00AA00"}
+tellraw @a {"text":"如果是第一次使用这个数据包,[点我]","color":"#00AA00","hoverEvent":{"action":"show_text","contents":[{"text":"[点我]","color":"#00AA00"}]},"clickEvent":{"action":"run_command","value":"/function world:tp_book"}}

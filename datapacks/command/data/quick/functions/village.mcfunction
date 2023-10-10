@@ -1,0 +1,1 @@
+data modify entity @e[limit=1,dx=1,dz=1,type=minecraft:villager] Gossips append value [{Target:[I;-1020856443,-1000984118,-1897078096,-159603218],Type:"major_positive",Value:100},{Target:[I;-1020856443,-1000984118,-1897078096,-159603218],Type:"minor_positive",Value:200}]

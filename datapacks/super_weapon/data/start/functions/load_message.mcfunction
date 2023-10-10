@@ -1,0 +1,1 @@
+tellraw @a {"text": "超级武器配方，已加载!", "color": "#00AA00"}

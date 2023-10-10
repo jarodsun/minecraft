@@ -1,0 +1,1 @@
+schedule function world:load_message 2s

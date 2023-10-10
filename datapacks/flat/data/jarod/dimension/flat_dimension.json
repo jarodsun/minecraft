@@ -1,0 +1,89 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:plains",
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:ancient_debris",
+          "height": 1
+        },
+        {
+          "block": "minecraft:nether_quartz_ore",
+          "height": 1
+        },
+        {
+          "block": "minecraft:diamond_ore",
+          "height": 1
+        },
+        {
+          "block": "minecraft:emerald_ore",
+          "height": 1
+        },
+        {
+          "block": "minecraft:redstone_ore",
+          "height": 1
+        },
+        {
+          "block": "minecraft:lapis_ore",
+          "height": 1
+        },
+        {
+          "block": "minecraft:gold_ore",
+          "height": 1
+        },
+        {
+          "block": "minecraft:iron_ore",
+          "height": 1
+        },
+        {
+          "block": "minecraft:coal_ore",
+          "height": 1
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 50
+        },
+        {
+          "block": "minecraft:dirt",
+          "height": 3
+        },
+        {
+          "block": "minecraft:grass_block",
+          "height": 1
+        }
+      ],
+      "structures": {
+        "structures": {
+          "minecraft:village": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 10387312
+          }
+        }
+      }
+    }
+  },
+  "type": {
+    "logical_height": 256,
+		"infiniburn": "minecraft:infiniburn_overworld",
+		"effects": "minecraft:overworld",
+		"respawn_anchor_works": false,
+		"has_raids": false,
+		"min_y": 0,
+		"height": 256,
+		"piglin_safe": false,
+		"bed_works": true,
+    "ultrawarm": false,
+    "natural": true,
+	  "coordinate_scale": 1.0,
+    "ambient_light": 0,
+    "fixed_time": 1000,
+    "has_skylight": true,
+    "has_ceiling": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+	  {
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_chestplate",
+			"functions": [
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:20s},{id:\"minecraft:thorns\",lvl:20s},{id:\"minecraft:unbreaking\",lvl:20s}]}"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }

@@ -1,0 +1,1 @@
+schedule function start:load_message 2s
