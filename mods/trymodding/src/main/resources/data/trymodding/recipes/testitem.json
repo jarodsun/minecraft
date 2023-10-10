@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trymodding:test_ore"
+    }
+  ],
+  "result": {
+    "item": "trymodding:testitem",
+    "count": 9
+  }
+}
