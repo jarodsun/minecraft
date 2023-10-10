@@ -23,3 +23,7 @@
 ## resourcepacks
 
 ## mods
+
+###  trymodding
+
+学习制作mod，学习地址https://www.youtube.com/playlist?list=PLKGarocXCE1EMxeBvqsOWZVkYD_Vd_uwW
