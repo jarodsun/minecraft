@@ -1,5 +1,6 @@
 {
   "item.trymodding.testitem": "TestItem",
   "itemGroup.TestModTab": "测试TAB",
-  "block.trymodding.test_ore": "测试方块"
+  "block.trymodding.test_ore": "测试方块",
+  "block.trymodding.coal_tel": "碳世界"
 }

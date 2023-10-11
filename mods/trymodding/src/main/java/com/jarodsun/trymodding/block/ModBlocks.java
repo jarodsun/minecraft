@@ -1,6 +1,7 @@
 package com.jarodsun.trymodding.block;
 
 import com.jarodsun.trymodding.TryModding;
+import com.jarodsun.trymodding.block.custom.CoalTelBlock;
 import com.jarodsun.trymodding.item.ModItemGroup;
 import com.jarodsun.trymodding.item.ModItems;
 import net.minecraft.block.AbstractBlock;
@@ -23,6 +24,9 @@ public class ModBlocks {
     public  static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore",
             () -> new Block(AbstractBlock.Properties.create(Material.ROCK).
                     harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> COAL_TEL = registerBlock("coal_tel",
+            () -> new CoalTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
