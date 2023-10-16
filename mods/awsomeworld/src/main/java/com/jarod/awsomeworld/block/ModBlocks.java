@@ -1,7 +1,7 @@
 package com.jarod.awsomeworld.block;
 
 import com.jarod.awsomeworld.AwsomeWorld;
-import com.jarod.awsomeworld.block.custom.CoalTelBlock;
+import com.jarod.awsomeworld.block.custom.*;
 import com.jarod.awsomeworld.item.ModItemGroup;
 import com.jarod.awsomeworld.item.ModItems;
 import net.minecraft.block.AbstractBlock;
@@ -22,6 +22,16 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COAL_TEL = registerBlock("coal_tel",
             () -> new CoalTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> IRON_TEL = registerBlock("iron_tel",
+            () -> new IronTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> GOLD_TEL = registerBlock("gold_tel",
+            () -> new GoldTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> DIAMOND_TEL = registerBlock("diamond_tel",
+            () -> new DiamondTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> ANCIENT_TEL = registerBlock("ancient_tel",
+            () -> new AncientTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> EMERALD_TEL = registerBlock("emerald_tel",
+            () -> new EmeraldTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

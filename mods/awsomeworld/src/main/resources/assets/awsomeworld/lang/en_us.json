@@ -1,4 +1,9 @@
 {
   "itemGroup.awsomeworld": "更好的世界",
-  "block.awsomeworld.coal_tel": "煤炭世界"
+  "block.awsomeworld.coal_tel": "煤炭世界",
+  "block.awsomeworld.iron_tel": "铁世界",
+  "block.awsomeworld.gold_tel": "金世界",
+  "block.awsomeworld.diamond_tel": "钻石世界",
+  "block.awsomeworld.ancient_tel": "远古残骸世界",
+  "block.awsomeworld.emerald_tel": "绿宝石世界"
 }

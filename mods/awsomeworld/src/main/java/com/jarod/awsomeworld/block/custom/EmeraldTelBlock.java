@@ -1,6 +1,7 @@
 package com.jarod.awsomeworld.block.custom;
 
-import com.jarod.awsomeworld.dimension.CoalTeleporter;
+import com.jarod.awsomeworld.dimension.DiamondTeleporter;
+import com.jarod.awsomeworld.dimension.EmeraldTeleporter;
 import com.jarod.awsomeworld.dimension.ModDimensions;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LecternBlock;
@@ -13,8 +14,8 @@ import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 
-public class CoalTelBlock extends LecternBlock {
-    public CoalTelBlock(Properties properties) {
+public class EmeraldTelBlock extends LecternBlock {
+    public EmeraldTelBlock(Properties properties) {
         super(properties);
     }
 
@@ -25,15 +26,15 @@ public class CoalTelBlock extends LecternBlock {
                 MinecraftServer server = worldIn.getServer();
 
                 if (server != null){
-                    if (worldIn.getDimensionKey() == ModDimensions.CoalDim){
+                    if (worldIn.getDimensionKey() == ModDimensions.EmeraldDim){
                         ServerWorld overWorld = server.getWorld(World.OVERWORLD);
                         if (overWorld != null){
-                            player.changeDimension(overWorld, new CoalTeleporter(pos, false));
+                            player.changeDimension(overWorld, new EmeraldTeleporter(pos, false));
                         }
                     } else {
-                        ServerWorld coalDim = server.getWorld(ModDimensions.CoalDim);
+                        ServerWorld coalDim = server.getWorld(ModDimensions.EmeraldDim);
                         if (coalDim != null){
-                            player.changeDimension(coalDim, new CoalTeleporter(pos, true));
+                            player.changeDimension(coalDim, new EmeraldTeleporter(pos, true));
                         }
                     }
                     return ActionResultType.SUCCESS;
