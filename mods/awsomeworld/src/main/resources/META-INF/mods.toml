@@ -21,7 +21,7 @@ modId="awsomeworld" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="更好的世界" #mandatory
+displayName="懒狗生存-更多的世界" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -34,9 +34,13 @@ credits="感谢小伙伴们的三连支持，哈哈哈！" #optional
 authors="探索无限" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-添加了几个矿物世界
+添加了9个矿物世界，1个和平世界。
 
-还有一个适合建造的超平坦世界
+矿物世界传送台合成：“矿物”+“讲台”。
+
+和平世界传送台合成：“石头”+“讲台”。
+
+光照强度始终是15，不会生怪。和平世界有村庄。
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional
