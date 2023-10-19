@@ -25,7 +25,7 @@ public class AncientTeleporter implements ITeleporter {
     public Entity placeEntity(Entity entity, ServerWorld currentWorld, ServerWorld destiantionWorld,
                               float yaw, Function<Boolean, Entity> repositionEntity){
         entity = repositionEntity.apply(false);
-        double y = 61;
+        double y = 62;
 
         if (!insideDimension){
             y = thisPos.getY();
