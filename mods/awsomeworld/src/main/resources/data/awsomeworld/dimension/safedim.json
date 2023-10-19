@@ -1,0 +1,34 @@
+{
+  "type": "awsomeworld:safedim",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:bedrock"
+        },
+        {
+          "height": 60,
+          "block": "minecraft:stone"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:grass_block"
+        }
+      ],
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false,
+      "structures": {
+        "structures": {
+          "minecraft:village": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 10387312
+          }
+        }
+      }
+    }
+  }
+}

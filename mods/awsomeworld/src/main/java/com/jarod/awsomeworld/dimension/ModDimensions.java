@@ -19,4 +19,12 @@ public class ModDimensions {
             new ResourceLocation(AwsomeWorld.MOD_ID, "ancientdim"));
     public static RegistryKey<World> EmeraldDim = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
             new ResourceLocation(AwsomeWorld.MOD_ID, "emeralddim"));
+    public static RegistryKey<World> LapisDim = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+            new ResourceLocation(AwsomeWorld.MOD_ID, "lapisdim"));
+    public static RegistryKey<World> RedstoneDim = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+            new ResourceLocation(AwsomeWorld.MOD_ID, "redstonedim"));
+    public static RegistryKey<World> QuartzDim = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+            new ResourceLocation(AwsomeWorld.MOD_ID, "quartzdim"));
+    public static RegistryKey<World> SafeDim = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+            new ResourceLocation(AwsomeWorld.MOD_ID, "safedim"));
 }

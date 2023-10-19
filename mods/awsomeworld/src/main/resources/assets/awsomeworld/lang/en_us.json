@@ -1,9 +1,13 @@
 {
-  "itemGroup.awsomeworld": "更好的世界",
+  "itemGroup.awsomeworld": "矿物维度",
   "block.awsomeworld.coal_tel": "煤炭世界",
   "block.awsomeworld.iron_tel": "铁世界",
   "block.awsomeworld.gold_tel": "金世界",
   "block.awsomeworld.diamond_tel": "钻石世界",
   "block.awsomeworld.ancient_tel": "远古残骸世界",
-  "block.awsomeworld.emerald_tel": "绿宝石世界"
+  "block.awsomeworld.emerald_tel": "绿宝石世界",
+  "block.awsomeworld.lapis_tel": "青金石世界",
+  "block.awsomeworld.redstone_tel": "红石世界",
+  "block.awsomeworld.quartz_tel": "石英世界",
+  "block.awsomeworld.safe_tel": "和平世界"
 }

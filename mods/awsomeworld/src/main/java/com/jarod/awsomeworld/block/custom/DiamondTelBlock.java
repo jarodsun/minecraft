@@ -1,6 +1,6 @@
 package com.jarod.awsomeworld.block.custom;
 
-import com.jarod.awsomeworld.dimension.DiamondTeleporter;
+import com.jarod.awsomeworld.dimension.custom.DiamondTeleporter;
 import com.jarod.awsomeworld.dimension.ModDimensions;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LecternBlock;
@@ -31,9 +31,9 @@ public class DiamondTelBlock extends LecternBlock {
                             player.changeDimension(overWorld, new DiamondTeleporter(pos, false));
                         }
                     } else {
-                        ServerWorld coalDim = server.getWorld(ModDimensions.DiamondDim);
-                        if (coalDim != null){
-                            player.changeDimension(coalDim, new DiamondTeleporter(pos, true));
+                        ServerWorld diamondDim = server.getWorld(ModDimensions.DiamondDim);
+                        if (diamondDim != null){
+                            player.changeDimension(diamondDim, new DiamondTeleporter(pos, true));
                         }
                     }
                     return ActionResultType.SUCCESS;

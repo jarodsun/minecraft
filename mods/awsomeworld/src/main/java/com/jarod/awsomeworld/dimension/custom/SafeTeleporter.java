@@ -1,8 +1,7 @@
-package com.jarod.awsomeworld.dimension;
+package com.jarod.awsomeworld.dimension.custom;
 
 import com.jarod.awsomeworld.block.ModBlocks;
-import com.jarod.awsomeworld.block.custom.DiamondTelBlock;
-import com.jarod.awsomeworld.block.custom.EmeraldTelBlock;
+import com.jarod.awsomeworld.block.custom.SafeTelBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.fluid.Fluids;
@@ -12,12 +11,12 @@ import net.minecraftforge.common.util.ITeleporter;
 
 import java.util.function.Function;
 
-public class EmeraldTeleporter implements ITeleporter {
+public class SafeTeleporter implements ITeleporter {
     public static BlockPos thisPos = BlockPos.ZERO;
 
     public static boolean insideDimension = true;
 
-    public EmeraldTeleporter(BlockPos pos, boolean insideDim){
+    public SafeTeleporter(BlockPos pos, boolean insideDim){
         thisPos = pos;
         insideDimension = insideDim;
     }
@@ -26,7 +25,7 @@ public class EmeraldTeleporter implements ITeleporter {
     public Entity placeEntity(Entity entity, ServerWorld currentWorld, ServerWorld destiantionWorld,
                               float yaw, Function<Boolean, Entity> repositionEntity){
         entity = repositionEntity.apply(false);
-        double y = 61;
+        double y = 62;
 
         if (!insideDimension){
             y = thisPos.getY();
@@ -48,13 +47,13 @@ public class EmeraldTeleporter implements ITeleporter {
         if (insideDimension){
             boolean doSetBlock = true;
             for (BlockPos checkPos : BlockPos.getAllInBoxMutable(destinationPos.down(10).west(10), destinationPos.up(10).east(10))){
-                if (destiantionWorld.getBlockState(checkPos).getBlock() instanceof EmeraldTelBlock){
+                if (destiantionWorld.getBlockState(checkPos).getBlock() instanceof SafeTelBlock){
                     doSetBlock = false;
                     break;
                 }
             }
             if (doSetBlock){
-                destiantionWorld.setBlockState(destinationPos, ModBlocks.EMERALD_TEL.get().getDefaultState());
+                destiantionWorld.setBlockState(destinationPos, ModBlocks.SAFE_TEL.get().getDefaultState());
             }
         }
         return entity;

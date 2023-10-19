@@ -1,4 +1,4 @@
-package com.jarod.awsomeworld.dimension;
+package com.jarod.awsomeworld.dimension.custom;
 
 import com.jarod.awsomeworld.block.ModBlocks;
 import com.jarod.awsomeworld.block.custom.CoalTelBlock;

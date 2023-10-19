@@ -1,7 +1,7 @@
-package com.jarod.awsomeworld.dimension;
+package com.jarod.awsomeworld.dimension.custom;
 
 import com.jarod.awsomeworld.block.ModBlocks;
-import com.jarod.awsomeworld.block.custom.IronTelBlock;
+import com.jarod.awsomeworld.block.custom.LapisTelBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.fluid.Fluids;
@@ -11,12 +11,12 @@ import net.minecraftforge.common.util.ITeleporter;
 
 import java.util.function.Function;
 
-public class IronTeleporter implements ITeleporter {
+public class LapisTeleporter implements ITeleporter {
     public static BlockPos thisPos = BlockPos.ZERO;
 
     public static boolean insideDimension = true;
 
-    public IronTeleporter(BlockPos pos, boolean insideDim){
+    public LapisTeleporter(BlockPos pos, boolean insideDim){
         thisPos = pos;
         insideDimension = insideDim;
     }
@@ -47,13 +47,13 @@ public class IronTeleporter implements ITeleporter {
         if (insideDimension){
             boolean doSetBlock = true;
             for (BlockPos checkPos : BlockPos.getAllInBoxMutable(destinationPos.down(10).west(10), destinationPos.up(10).east(10))){
-                if (destiantionWorld.getBlockState(checkPos).getBlock() instanceof IronTelBlock){
+                if (destiantionWorld.getBlockState(checkPos).getBlock() instanceof LapisTelBlock){
                     doSetBlock = false;
                     break;
                 }
             }
             if (doSetBlock){
-                destiantionWorld.setBlockState(destinationPos, ModBlocks.IRON_TEL.get().getDefaultState());
+                destiantionWorld.setBlockState(destinationPos, ModBlocks.LAPIS_TEL.get().getDefaultState());
             }
         }
         return entity;

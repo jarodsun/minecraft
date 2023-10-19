@@ -1,6 +1,6 @@
 package com.jarod.awsomeworld.block.custom;
 
-import com.jarod.awsomeworld.dimension.IronTeleporter;
+import com.jarod.awsomeworld.dimension.custom.IronTeleporter;
 import com.jarod.awsomeworld.dimension.ModDimensions;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LecternBlock;

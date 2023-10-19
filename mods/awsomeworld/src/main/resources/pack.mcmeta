@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 6,
-        "description": "更多的矿物维度，还有一个适合建基地的维度",
+        "description": "更多的矿物维度，每个维度都适合建造基地，时间锁定在正午",
         "_comment": "???"
     }
 }

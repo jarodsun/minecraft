@@ -1,6 +1,6 @@
 package com.jarod.awsomeworld.block.custom;
 
-import com.jarod.awsomeworld.dimension.GoldTeleporter;
+import com.jarod.awsomeworld.dimension.custom.GoldTeleporter;
 import com.jarod.awsomeworld.dimension.ModDimensions;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LecternBlock;
@@ -30,9 +30,9 @@ public class GoldTelBlock extends LecternBlock {
                             player.changeDimension(overWorld, new GoldTeleporter(pos, false));
                         }
                     } else {
-                        ServerWorld coalDim = server.getWorld(ModDimensions.GoldDim);
-                        if (coalDim != null){
-                            player.changeDimension(coalDim, new GoldTeleporter(pos, true));
+                        ServerWorld goldDim = server.getWorld(ModDimensions.GoldDim);
+                        if (goldDim != null){
+                            player.changeDimension(goldDim, new GoldTeleporter(pos, true));
                         }
                     }
                     return ActionResultType.SUCCESS;

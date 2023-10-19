@@ -32,6 +32,14 @@ public class ModBlocks {
             () -> new AncientTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> EMERALD_TEL = registerBlock("emerald_tel",
             () -> new EmeraldTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> LAPIS_TEL = registerBlock("lapis_tel",
+            () -> new LapisTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> REDSTONE_TEL = registerBlock("redstone_tel",
+            () -> new RedstoneTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> QUARTZ_TEL = registerBlock("quartz_tel",
+            () -> new QuartzTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> SAFE_TEL = registerBlock("safe_tel",
+            () -> new SafeTelBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

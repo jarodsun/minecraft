@@ -1,8 +1,7 @@
-package com.jarod.awsomeworld.dimension;
+package com.jarod.awsomeworld.dimension.custom;
 
 import com.jarod.awsomeworld.block.ModBlocks;
 import com.jarod.awsomeworld.block.custom.AncientTelBlock;
-import com.jarod.awsomeworld.block.custom.DiamondTelBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.fluid.Fluids;

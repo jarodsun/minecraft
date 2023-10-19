@@ -1,7 +1,8 @@
 package com.jarod.awsomeworld.block.custom;
 
-import com.jarod.awsomeworld.dimension.custom.CoalTeleporter;
 import com.jarod.awsomeworld.dimension.ModDimensions;
+import com.jarod.awsomeworld.dimension.custom.RedstoneTeleporter;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LecternBlock;
 import net.minecraft.entity.player.PlayerEntity;
@@ -13,8 +14,8 @@ import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 
-public class CoalTelBlock extends LecternBlock {
-    public CoalTelBlock(Properties properties) {
+public class RedstoneTelBlock extends LecternBlock {
+    public RedstoneTelBlock(AbstractBlock.Properties properties) {
         super(properties);
     }
 
@@ -25,15 +26,15 @@ public class CoalTelBlock extends LecternBlock {
                 MinecraftServer server = worldIn.getServer();
 
                 if (server != null){
-                    if (worldIn.getDimensionKey() == ModDimensions.CoalDim){
+                    if (worldIn.getDimensionKey() == ModDimensions.RedstoneDim){
                         ServerWorld overWorld = server.getWorld(World.OVERWORLD);
                         if (overWorld != null){
-                            player.changeDimension(overWorld, new CoalTeleporter(pos, false));
+                            player.changeDimension(overWorld, new RedstoneTeleporter(pos, false));
                         }
                     } else {
-                        ServerWorld coalDim = server.getWorld(ModDimensions.CoalDim);
-                        if (coalDim != null){
-                            player.changeDimension(coalDim, new CoalTeleporter(pos, true));
+                        ServerWorld redstoneDim = server.getWorld(ModDimensions.RedstoneDim);
+                        if (redstoneDim != null){
+                            player.changeDimension(redstoneDim, new RedstoneTeleporter(pos, true));
                         }
                     }
                     return ActionResultType.SUCCESS;
