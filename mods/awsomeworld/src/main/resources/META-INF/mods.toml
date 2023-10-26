@@ -21,7 +21,7 @@ modId="awsomeworld" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="懒狗生存-更多的世界-v1.0.1" #mandatory
+displayName="懒神生存-爽就完事儿了" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -42,7 +42,7 @@ description='''
 
 光照强度始终是15，不会生怪。和平世界有村庄。
 
-添加了“飞行戒指”带夜视效果。
+添加了“懒神戒指”，可以升级。
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional
