@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magma_cream"
+    },
+    "D": {
+      "item": "awsomeworld:ring_flight_lv5"
+    }
+  },
+  "result": {
+    "item": "awsomeworld:ring_flight_lv6",
+    "count": 1
+  }
+}

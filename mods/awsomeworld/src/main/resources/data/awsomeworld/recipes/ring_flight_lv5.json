@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "D": {
+      "item": "awsomeworld:ring_flight_lv4"
+    }
+  },
+  "result": {
+    "item": "awsomeworld:ring_flight_lv5",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "D": {
+      "item": "awsomeworld:ring_flight_lv7"
+    }
+  },
+  "result": {
+    "item": "awsomeworld:ring_flight_lv8",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_rod"
+    },
+    "D": {
+      "item": "awsomeworld:ring_flight_lv6"
+    }
+  },
+  "result": {
+    "item": "awsomeworld:ring_flight_lv7",
+    "count": 1
+  }
+}

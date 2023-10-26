@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "D": {
+      "item": "awsomeworld:ring_flight_lv3"
+    }
+  },
+  "result": {
+    "item": "awsomeworld:ring_flight_lv4",
+    "count": 1
+  }
+}
