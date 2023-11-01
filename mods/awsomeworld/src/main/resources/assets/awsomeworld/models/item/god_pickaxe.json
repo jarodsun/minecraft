@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "awsomeworld:item/god_pickaxe",
+    "layer1": "awsomeworld:item/god_pickaxe_layer"
+  }
+}

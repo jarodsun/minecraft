@@ -9,6 +9,9 @@
   "item.awsomeworld.ring_flight_lv7": "§6懒神戒指 Lv7",
   "item.awsomeworld.ring_flight_lv8": "§6懒神戒指 Lv8",
   "item.awsomeworld.ring_flight_lv9": "§6懒神戒指 LvMax",
+  "item.awsomeworld.book1": "§6懒神附魔",
+  "item.awsomeworld.god_sword": "§6懒神之剑",
+  "item.awsomeworld.god_pickaxe": "§6懒神之镐",
   "block.awsomeworld.coal_tel": "§d煤炭世界",
   "block.awsomeworld.iron_tel": "§d铁世界",
   "block.awsomeworld.gold_tel": "§d金世界",
@@ -63,5 +66,8 @@
   "tooltip.awsomeworld.ring_flight_lv9_line6": "+ §b获得 抗火X 效果",
   "tooltip.awsomeworld.ring_flight_lv9_line7": "+ §b获得 力量X 效果",
   "tooltip.awsomeworld.ring_flight_lv9_line8": "+ §b获得 瞬间治疗X 效果",
-  "tooltip.awsomeworld.ring_flight_lv9_line9": "+ §b获得 幸运X 效果"
+  "tooltip.awsomeworld.ring_flight_lv9_line9": "+ §b获得 幸运X 效果",
+  "tooltip.awsomeworld.god_sword_line1": "+ §b神剑不消耗耐久",
+  "tooltip.awsomeworld.god_pickaxe_line1": "+ §b神镐不消耗耐久"
+
 }

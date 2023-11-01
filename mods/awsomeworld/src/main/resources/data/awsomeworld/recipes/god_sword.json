@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "D": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "result": {
+    "item": "awsomeworld:god_sword",
+    "count": 1
+  }
+}

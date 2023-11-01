@@ -3,6 +3,7 @@ package com.jarod.awsomeworld.item;
 import com.jarod.awsomeworld.AwsomeWorld;
 import com.jarod.awsomeworld.item.custom.*;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,6 +31,11 @@ public class ModItems {
             () -> new RingFlightLv8(new Item.Properties().group(ModItemGroup.AWSOME_WORLD)));
     public static final RegistryObject<Item> RINGFLIGHTLV9 = ITEMS.register("ring_flight_lv9",
             () -> new RingFlightLv9(new Item.Properties().group(ModItemGroup.AWSOME_WORLD)));
+    public static final RegistryObject<Item> GODSWORD = ITEMS.register("god_sword",
+            () -> new GodSword(ModItemTier.ModTools,98, -2.0f, new Item.Properties().group(ModItemGroup.AWSOME_WORLD)));
+    public static final RegistryObject<Item> GODPICKAXE = ITEMS.register("god_pickaxe",
+            () -> new GodPickaxe(ModItemTier.ModTools,0, 3.0f, new Item.Properties().group(ModItemGroup.AWSOME_WORLD)));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

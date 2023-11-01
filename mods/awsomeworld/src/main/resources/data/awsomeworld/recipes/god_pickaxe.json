@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "D": {
+      "item": "minecraft:netherite_pickaxe"
+    }
+  },
+  "result": {
+    "item": "awsomeworld:god_pickaxe",
+    "count": 1
+  }
+}
