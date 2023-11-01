@@ -43,6 +43,8 @@ description='''
 光照强度始终是15，不会生怪。和平世界有村庄。
 
 添加了“懒神戒指”，可以升级。
+
+添加了“懒神之剑”和“懒神之镐”。
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional
